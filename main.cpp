@@ -2,8 +2,13 @@
 #include "matematicas.h"
 
 int main() {
-    int x = 10;
-    int y = 4;
+    int x,y;
+
+    std::cout << "Ingrese el primer numero: ";
+    std::cin >> x;
+
+    std::cout << "Ingrese el segundo numero: ";
+    std::cin >> y;
 
     int resultado_suma = sumar(x, y);
     int resultado_resta = restar(x, y);
